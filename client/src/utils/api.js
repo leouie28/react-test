@@ -20,7 +20,8 @@ const useApi = () => {
      */
     const getData = async () => {
         try {
-            const response = await fetch('http://localhost:4001/data', {
+            const api_url = import.meta.env.VITE_API_URL
+            const response = await fetch(`${api_url}/data`, {
                 headers: {
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
