@@ -2,10 +2,12 @@
 
 ## Project Structure
 
+```lua
 |--root/
 |   |--client/      //React app (front-end)
 |   |--server/      //Node server (server)
 |   |--README.md
+```
 
 ## Setup
 
