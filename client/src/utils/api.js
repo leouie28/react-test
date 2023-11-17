@@ -20,7 +20,7 @@ const useApi = () => {
      */
     const getData = async () => {
         try {
-            const response = await fetch('http://localhost:3001/data', {
+            const response = await fetch('http://localhost:4001/data', {
                 headers: {
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
